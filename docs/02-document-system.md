@@ -86,13 +86,6 @@ classDiagram
         +rollbackTransaction() void
         +isInTransaction() bool
     }
-
-    ApplicationContext ||--o{ Document : manages
-    Document ||--|| Model : contains
-    Document ||--|| CommandStack : has
-    Document ||--|| TransactionManager : has
-    Document ||--|| DatabaseHelper : uses
-    Document ||--|| Viewport : creates
 ```
 
 ## 核心组件详解
