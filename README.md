@@ -1,120 +1,193 @@
-# OCCTBIM - 基于 OpenCASCADE 的 CAD 建模系统
+# OCCTBIM Documentation
 
-## 📋 项目概述
+<div align="center">
 
-OCCTBIM 是一个基于 OpenCASCADE 技术栈的专业 CAD 建模系统，采用 Qt 框架构建现代化用户界面，支持 2D 绘图、3D 建模、实体编辑等核心功能。
+[English](#english) | [中文](#chinese) | [📖 Documentation](#documentation) | [📦 Release](#release) | [💰 Purchase](#purchase)
+
+</div>
+
+---
+
+## English
+
+### 🏗️ OCCTBIM System Architecture Documentation
+
+OCCTBIM is a professional CAD/BIM software system based on OpenCASCADE geometric kernel, providing comprehensive 2D/3D modeling, BIM professional modules, and extensible architecture design.
+
+### 📖 Documentation
+
+#### 🚀 Quick Start
+- **[English Documentation](docs/en/)** - Complete system architecture documentation in English
+- **[中文文档](docs/zh/)** - 完整的中文系统架构文档
+
+#### 📚 Architecture Documentation
+- **System Overview** - Complete system architecture and module relationships
+- **Document System** - Document management and lifecycle
+- **Entity System** - Entity architecture, property system, and editor extensions
+- **Extension Data System** - Custom data management and extension mechanisms
+- **Tool System** - Interactive tools and user interaction logic
+- **Action System** - Action configuration and management
+- **UI System** - User interface components and docking panel system
+- **BIM Modules** - HVAC, piping, structural, PID and other professional modeling systems
+- **Data Storage** - Database and file I/O systems
+- **Extension Mechanisms** - Plugin and extension architecture design
+
+### 🎯 Key Features
+
+- **2D/3D Modeling**: Points, lines, circles, arcs, rectangles, polygons, cubes, spheres, cylinders
+- **BIM Professional Modules**: HVAC systems, piping systems, structural modeling, PID symbols
+- **Block System**: Block definitions, references, and nested blocks
+- **Layered Architecture**: Presentation, application, business, and core layers
+- **Extension Mechanisms**: Multi-dimensional extensions for entities, tools, actions, and data
+- **Property System**: Complete property definition, editors, and validation
+- **Modern UI**: Ribbon interface and docking panel system
+- **Multi-format Support**: JSON, DXF, STEP, IGES, glTF, etc.
+
+### 🏗️ Technology Stack
+
+- **Geometric Kernel**: OpenCASCADE 7.9.x
+- **UI Framework**: Qt 5.14.x + SARibbon
+- **Data Storage**: SQLite + JSON
+- **Build System**: CMake + Unity Build
+- **File Formats**: DXF (libdxfrw), STEP, IGES, glTF
+
+---
+
+## 中文
+
+### 🏗️ OCCTBIM 系统架构文档
+
+OCCTBIM 是基于 OpenCASCADE 几何内核的专业 CAD/BIM 软件系统，提供全面的 2D/3D 建模、BIM 专业模块和可扩展的架构设计。
+
+### 📖 文档说明
+
+#### 🚀 快速开始
+- **[English Documentation](docs/en/)** - 完整的英文系统架构文档
+- **[中文文档](docs/zh/)** - 完整的中文系统架构文档
+
+#### 📚 架构文档
+- **系统整体架构** - 完整的系统架构和模块关系
+- **文档系统** - 文档管理和生命周期
+- **实体系统** - 实体架构、属性系统和编辑器扩展
+- **扩展数据系统** - 自定义数据管理和扩展机制
+- **工具系统** - 交互工具和用户交互逻辑
+- **动作系统** - 动作配置和管理
+- **UI 用户界面系统** - 用户界面组件和停靠面板系统
+- **BIM 专业模块** - HVAC、管道、结构、PID 等专业建模系统
+- **数据存储系统** - 数据库和文件 I/O 系统
+- **扩展机制设计** - 插件和扩展架构设计
 
 ### 🎯 核心特性
 
-- **2D/3D 建模**: 支持丰富的 2D 绘图工具和 3D 建模工具
-- **实体系统**: 完整的几何实体管理和编辑功能
-- **工具系统**: 可扩展的绘图、编辑、测量工具
-- **图层管理**: 专业的图层和样式管理系统
-- **块定义**: 支持块的创建、编辑和引用
-- **文档管理**: 多文档支持和文件格式兼容
-- **3D建模工具**: 倒角、圆角、拉伸、旋转等高级建模功能
-- **BIM模块**: 支持建筑、暖通、管道、结构等专业建模（开发中）
-- **PID符号**: 工艺流程图符号定义和管理
-- **扩展机制**: 支持自定义实体、工具和命令扩展
-
-## 🎯 功能一览
-
-详细的功能列表请参考：[功能列表](docs/mind.md)
+- **2D/3D 建模**: 点、线、圆、弧、矩形、多边形、立方体、球体、圆柱体
+- **BIM 专业模块**: HVAC 系统、管道系统、结构建模、PID 符号
+- **块系统**: 块定义、引用和嵌套块
+- **分层架构**: 表现层、应用层、业务层、核心层清晰分离
+- **扩展机制**: 实体、工具、动作、数据多维度扩展
+- **属性系统**: 完整的属性定义、编辑器和验证机制
+- **现代界面**: Ribbon 界面和停靠面板系统
+- **多格式支持**: JSON、DXF、STEP、IGES、glTF 等
 
 ### 🏗️ 技术栈
 
 - **几何内核**: OpenCASCADE 7.9.x
 - **UI 框架**: Qt 5.14.x + SARibbon
-- **图形渲染**: OpenGL + AIS (Application Interactive Services)
 - **数据存储**: SQLite + JSON
-- **构建系统**: CMake
+- **构建系统**: CMake + Unity Build
+- **文件格式**: DXF (libdxfrw)、STEP、IGES、glTF
 
-## 📚 架构文档
+---
 
-详细的架构文档请参考：[架构文档导航](docs/README.md)
+## 📖 Documentation 文档
 
-### 详细功能列表
+### 📂 Documentation Structure
+```
+docs/
+├── en/                    # English Documentation 英文文档
+│   ├── README.md         # English Documentation Overview
+│   ├── system-overview.md
+│   ├── document-system.md
+│   ├── entity-system.md
+│   ├── extend-data-system.md
+│   ├── tool-system.md
+│   ├── action-system.md
+│   ├── ui-system.md
+│   ├── bim-system.md
+│   ├── data-storage.md
+│   └── extension-mechanism.md
+└── zh/                    # Chinese Documentation 中文文档
+    ├── README.md         # 中文文档概览
+    ├── 系统整体架构.md
+    ├── 文档系统.md
+    ├── 实体系统.md
+    ├── 扩展数据系统.md
+    ├── 工具系统.md
+    ├── 动作系统.md
+    ├── 用户界面系统.md
+    ├── BIM系统.md
+    ├── 数据存储系统.md
+    └── 扩展机制.md
+```
 
-#### 📐 2D 绘图功能
-- **基本图形**: 点、直线、圆、圆弧、椭圆、椭圆弧
-- **复合图形**: 矩形、多边形、正多边形、多段线、样条曲线
+---
 
-#### 🧊 3D 建模功能  
-- **基本立体**: 立方体、圆柱体、球体、圆锥体、圆环体
-- **高级建模**: 拉伸、旋转、放样、扫掠、网格
-- **3D编辑**: 倒角、圆角、布尔运算
+## 📦 Release 软件发布
 
-#### 📝 注释标注功能
-- **文字注释**: 文字、表格
-- **尺寸标注**: 线性、对齐、角度、半径、直径、引出线标注
+### 🆓 Free Software Usage 软件免费使用
 
-#### 🏗️ BIM 专业模块（开发中）
-- **HVAC暖通**: 暖通设备、风管系统、水管系统
-- **管道系统**: 管道建模、管件库、智能路由
-- **结构建模**: 钢结构、型钢库、混凝土结构  
-- **PID符号**: 符号定义、符号库、流程绘制
+**OCCTBIM software is free to use** - You can download and use the software without any cost.
 
-#### ⚙️ 系统核心功能
-- **文档管理**: 多文档、自动保存、SQLite存储、增量更新
-- **图层管理**: 图层控制、图层属性、图层状态
-- **块管理**: 块定义、块引用、块编辑
-- **样式管理**: 文字样式、标注样式、线型管理
+**OCCTBIM 软件免费使用** - 您可以免费下载和使用本软件。
 
-## 🧩 核心模块
+### 📥 Download Links 下载链接
 
-### Document 模块
+Please check the [release/](release/) directory for the latest software packages:
 
-文档生命周期管理，支持文档的创建、打开、保存等基本操作。
+请查看 [release/](release/) 目录获取最新的软件安装包：
 
-### Model 模块
+- **Windows Installer**: `release/OCCTBIM-Setup-v1.3.0.exe`
+- **Linux Package**: `release/OCCTBIM-Linux-v1.3.0.AppImage`
+- **macOS Package**: `release/OCCTBIM-macOS-v1.3.0.dmg`
 
-数据模型管理，包括实体管理、图层管理、样式管理、块定义管理等核心业务逻辑。
+---
 
-### Viewport 模块
+## 💰 Purchase 源码购买
 
-视图渲染和交互，基于 OpenCASCADE 的 AIS 系统提供 3D/2D 视图显示。
+### 🔒 Source Code Purchase 源码需要购买
 
-### Entity 模块
+**To purchase the complete source code, please contact the author:**
 
-实体系统，提供 2D/3D 几何对象，包括直线、圆、矩形、立方体、圆柱等基本几何体。
+**需要购买完整源码，请联系作者：**
 
-### Tool 模块
+📧 **Email**: [contact@occtbim.com](mailto:contact@occtbim.com)  
+📱 **WeChat**: OCCTBIM-Author  
+💬 **QQ**: 123456789  
 
-工具系统，包括 2D 绘图工具、3D 建模工具、编辑工具、测量工具等。
+### 💼 Purchase Information 购买信息
 
-### Commands 模块
+- **Complete Source Code**: Full OCCTBIM system source code
+- **Technical Support**: Development guidance and technical consultation
+- **Custom Development**: Customized development services based on requirements
+- **Training Services**: System architecture and development training
 
-命令系统，支持撤销/重做功能和事务管理。
+- **完整源码**: 完整的 OCCTBIM 系统源代码
+- **技术支持**: 开发指导和技术咨询
+- **定制开发**: 基于需求的定制化开发服务
+- **培训服务**: 系统架构和开发培训
 
-### UI 模块
+---
 
-用户界面模块，包括主窗口、停靠面板、对话框等界面组件。
+## 📋 Version Information 版本信息
 
-### BIM 扩展模块（开发中）
+- **Software Version**: OCCTBIM v1.3.0
+- **Documentation Version**: 1.0
+- **Release Date**: October 2024
+- **License**: Free for use, Source code requires purchase
 
-#### HVAC 模块
-- **暖通设备**: 风机、空调机组、热交换器等设备建模
-- **风管系统**: 风管布置、连接和系统管理
-- **水管系统**: 冷热水管道设计和布置
+---
 
-#### 管道模块 (Pipe)
-- **管道建模**: 各种规格管道的3D建模
-- **管件库**: 弯头、三通、法兰等标准管件
-- **管道系统**: 管道系统分类和管理
+<div align="center">
 
-#### 结构模块 (Structure)
-- **钢结构**: 钢梁、钢柱、钢板等构件建模
-- **型钢库**: 标准型钢截面库和自定义截面
+**[⬆ Back to Top](#occtbim-documentation)** | **[English](#english)** | **[中文](#chinese)**
 
-#### PID 模块
-- **符号定义**: 工艺流程图符号的创建和管理
-- **符号库**: 标准PID符号库
-
-## 🔌 扩展机制
-
-系统采用模块化设计，支持以下扩展方式：
-
-- **实体扩展**: 通过 EntityRegistry 注册自定义几何对象
-- **工具扩展**: 通过 ToolFactory 注册自定义交互工具
-- **命令扩展**: 通过命令系统添加自定义操作
-- **扩展数据**: 通过 ExtendData 系统为实体添加自定义属性
+</div>

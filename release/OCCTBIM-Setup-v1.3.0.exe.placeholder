@@ -1,0 +1,15 @@
+# OCCTBIM Windows Installer
+
+This is a placeholder for the Windows installer executable.
+
+File: OCCTBIM-Setup-v1.3.0.exe
+Size: ~150MB
+Platform: Windows 10/11 (64-bit)
+
+To build the actual installer, you would need:
+- NSIS (Nullsoft Scriptable Install System) or Inno Setup
+- Compiled OCCTBIM binaries
+- Dependencies (Qt, OpenCASCADE, etc.)
+- Installation scripts
+
+Contact: contact@occtbim.com for source code and build instructions.
