@@ -120,9 +120,7 @@ release/
 
 **需要购买完整源码，请联系作者：**
 
-📧 **Email**: [contact@occtbim.com](mailto:contact@occtbim.com)  
-📱 **WeChat**: OCCTBIM-Author  
-💬 **QQ**: 123456789  
+📧 **Email**: [zhangly1403@163.com](mailto:zhangly1403@163.com)  
 
 ### 📋 Purchase Includes 购买包含
 
@@ -146,9 +144,7 @@ For technical support, bug reports, or feature requests:
 
 技术支持、错误报告或功能请求：
 
-📧 **Support Email**: [support@occtbim.com](mailto:support@occtbim.com)  
-🌐 **Official Website**: [https://www.occtbim.com](https://www.occtbim.com)  
-💬 **Community Forum**: [https://forum.occtbim.com](https://forum.occtbim.com)
+📧 **Support Email**: [zhangly1403@163.com](mailto:zhangly1403@163.com)
 
 ---
 
