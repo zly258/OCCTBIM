@@ -19,7 +19,6 @@
 #### Latest Release (v1.3.0)
 - **Windows Installer**: `OCCTBIM-Setup-v1.3.0.exe` (64-bit, ~150MB)
 - **Linux Package**: `OCCTBIM-Linux-v1.3.0.AppImage` (x64, ~180MB)
-- **macOS Package**: `OCCTBIM-macOS-v1.3.0.dmg` (Intel & Apple Silicon, ~160MB)
 
 #### System Requirements
 - **Windows**: Windows 10/11 (64-bit)
@@ -64,7 +63,6 @@
 #### 最新版本 (v1.3.0)
 - **Windows 安装包**: `OCCTBIM-Setup-v1.3.0.exe` (64位, ~150MB)
 - **Linux 安装包**: `OCCTBIM-Linux-v1.3.0.AppImage` (x64, ~180MB)
-- **macOS 安装包**: `OCCTBIM-macOS-v1.3.0.dmg` (Intel & Apple Silicon, ~160MB)
 
 #### 系统要求
 - **Windows**: Windows 10/11 (64位)
@@ -104,9 +102,6 @@
 release/
 ├── OCCTBIM-Setup-v1.3.0.exe          # Windows Installer
 ├── OCCTBIM-Linux-v1.3.0.AppImage     # Linux AppImage
-├── OCCTBIM-macOS-v1.3.0.dmg          # macOS DMG
-├── OCCTBIM-Portable-v1.3.0.zip       # Windows Portable Version
-├── OCCTBIM-Source-v1.3.0.zip         # Source Code (Purchase Required)
 └── README.md                          # This File
 ```
 
