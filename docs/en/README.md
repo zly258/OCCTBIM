@@ -54,7 +54,7 @@ This documentation collection provides a detailed description of the complete ar
 ## 🏗️ Technology Stack
 
 - **Geometric Kernel**: OpenCASCADE 7.9.x
-- **UI Framework**: Qt 5.14.x + SARibbon
+- **UI Framework**: Qt 5.14.x
 - **Data Storage**: SQLite + JSON
 - **Build System**: CMake + Unity Build
 - **File Formats**: DXF(libdxfrw), STEP, IGES, glTF, etc.
@@ -88,12 +88,7 @@ This documentation collection provides a detailed description of the complete ar
 - **Extension Guide**: Provide complete extension development guidance
 - **Bilingual Documentation**: Full Chinese and English technical documentation
 
-## 📝 Version Information
 
-- **Documentation Version**: 1.0
-- **System Version**: OCCTBIM 1.3.0
-- **Creation Date**: October 2024
-- **Based on Code**: Strictly based on actual project code structure
 
 ---
 

@@ -36,7 +36,7 @@ OCCTBIM 是基于 OpenCASCADE 几何内核的专业 CAD/BIM 软件系统，提�
 ## 🏗️ 技术栈
 
 - **几何内核**: OpenCASCADE 7.9.x
-- **UI 框架**: Qt 5.14.x + SARibbon
+- **UI 框架**: Qt 5.14.x
 - **数据存储**: SQLite + JSON
 - **构建系统**: CMake + Unity Build
 - **文件格式**: DXF (libdxfrw)、STEP、IGES、glTF
@@ -54,24 +54,3 @@ OCCTBIM 是基于 OpenCASCADE 几何内核的专业 CAD/BIM 软件系统，提�
 - **Windows 安装包**: `release/OCCTBIM-Setup-v1.3.0.exe`
 - **Linux 安装包**: `release/OCCTBIM-Linux-v1.3.0.AppImage`
 
-## 💰 源码购买
-
-### 🔒 源码需要购买
-
-**需要购买完整源码，请联系作者：**
-
-📧 **邮箱**: [zhangly1403@163.com](mailto:zhangly1403@163.com)
-
-### 💼 购买信息
-
-- **完整源码**: 完整的 OCCTBIM 系统源代码
-- **技术支持**: 开发指导和技术咨询
-- **定制开发**: 基于需求的定制化开发服务
-- **培训服务**: 系统架构和开发培训
-
-## 📋 版本信息
-
-- **软件版本**: OCCTBIM v1.3.0
-- **文档版本**: 1.0
-- **发布日期**: 2024年10月
-- **许可证**: 免费使用，源码需要购买

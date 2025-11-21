@@ -170,7 +170,7 @@ graph TB
 
 ### User Interface
 - **Qt 5.14.x**: Cross-platform GUI framework
-- **SARibbon**: Modern Ribbon interface
+- **Modern Ribbon interface**
 - **OpenGL**: 3D graphics rendering
 
 ### Data Storage

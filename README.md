@@ -36,7 +36,7 @@ OCCTBIM is a professional CAD/BIM software system based on OpenCASCADE geometric
 ## 🏗️ Technology Stack
 
 - **Geometric Kernel**: OpenCASCADE 7.9.x
-- **UI Framework**: Qt 5.14.x + SARibbon
+- **UI Framework**: Qt 5.14.x
 - **Data Storage**: SQLite + JSON
 - **Build System**: CMake + Unity Build
 - **File Formats**: DXF (libdxfrw), STEP, IGES, glTF
@@ -54,24 +54,3 @@ Please check the [release/](release/) directory for the latest software packages
 - **Windows Installer**: `release/OCCTBIM-Setup-v1.3.0.exe`
 - **Linux Package**: `release/OCCTBIM-Linux-v1.3.0.AppImage`
 
-## 💰 Purchase
-
-### 🔒 Source Code Purchase
-
-**To purchase the complete source code, please contact the author:**
-
-📧 **Email**: [zhangly1403@163.com](mailto:zhangly1403@163.com)
-
-### 💼 Purchase Information
-
-- **Complete Source Code**: Full OCCTBIM system source code
-- **Technical Support**: Development guidance and technical consultation
-- **Custom Development**: Customized development services based on requirements
-- **Training Services**: System architecture and development training
-
-## 📋 Version Information
-
-- **Software Version**: OCCTBIM v1.3.0
-- **Documentation Version**: 1.0
-- **Release Date**: October 2024
-- **License**: Free for use, Source code requires purchase
