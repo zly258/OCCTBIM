@@ -54,3 +54,6 @@ OCCTBIM 是基于 OpenCASCADE 几何内核的专业 CAD/BIM 软件系统，提�
 - **Windows 安装包**: 在发布页面提供
 - **Linux 安装包**: 在发布页面提供
 
+### 🖼️ 软件界面
+
+![OCCTBIM Windows 界面](images/windows_zh.png)

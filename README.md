@@ -54,3 +54,6 @@ OCCTBIM is a professional CAD/BIM software system based on OpenCASCADE geometric
 - **Windows Installer**: Available on the release page
 - **Linux Package**: Available on the release page
 
+### 🖼️ Software Interface
+
+![OCCTBIM Windows Interface](images/windows_en.png)
